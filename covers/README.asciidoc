@@ -1,3 +1,3 @@
-= Functionality for Covers
+== Functionality for Covers
 
 We'll need a covers worker that converts just the cover.html file to PDF via AH, then runs that PDF through image magick or something similar in order to create a usable image file for EPUB, MOBI, HTML, etc. These generated covers should use consistent naming conventions, so that the fallback img tag in the HTML doesn't need to be edited for each book (unless there's a way to automatically and temporarily inject that image into the cover HTML for the other formats). I wasn't sure what the syntax for fallbacks was, so that will likely need to be edited. We should also officially decide on syntax for PDF- (or EPUB-, MOBI-, HTML-, PRINT-) only elements.
